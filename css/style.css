@@ -1,10 +1,11 @@
 @font-face {
   font-family: 'Nunito Sans', sans-serif;
-  font-family: 'Yeseva One', cursive;
   src: url(../fonts/NunitoSans-Regular.ttf);
+}
+@font-face {
+  font-family: 'Yeseva One', cursive;
   src: url(../fonts/YesevaOne-Regular.ttf);
 }
-
 body{
   margin: 0px;
 }
@@ -17,7 +18,7 @@ header{
 }
 .header-conteiner{
   display: flex;
-  max-width: 1300px;
+  max-width: 1256px;
   margin: 0 auto;
   height: 83px;
   justify-content: space-around;
@@ -98,11 +99,12 @@ header{
   background-color: rgba(0,0,0,0.7);
 }
 .room {
-  max-width: 1300px;
+  max-width: 1256px;
   margin: 0 auto;
+  padding-left: 42px;
   z-index: 1;
 }
-h1{
+.title-h1{
   font-family: Yeseva One;
   font-style: normal;
   font-weight: normal;
@@ -183,8 +185,10 @@ h1{
 }
 .projects-conteiner{
   margin: 0px auto;
-  max-width: 1300px;
+  max-width: 1256px;
   height: 552px;
+  padding-left: 42px;
+  padding-right: 42px;
 }
 .projects-list{
   display: flex;
@@ -273,11 +277,11 @@ h1{
   /* <<<<section-3>>> */
 
  .section-three{
-   margin-top: -330px;
+   margin-top: -323px;
  }
 .section-three-conteiner{
   margin: 0px auto;
-  max-width: 1300px;
+  max-width: 1256px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -292,6 +296,9 @@ h1{
   text-transform: uppercase;
   color: #FFFFFF;
 } 
+.video{
+  margin-top: 31px;
+}
 .hr-line{
   margin-top: 62px;
   border-width: 0px;
@@ -389,7 +396,7 @@ h1{
 }
 .section-four-conteiner{
   margin: 0px auto;
-  max-width: 1300px;
+  max-width: 1256px;
 }
 .title-four{
   font-family: Yeseva One;
@@ -412,10 +419,11 @@ h1{
 }
 .four-conteiner{
   display: flex;
-  max-width: 1236px;
+  max-width: 100%;
   min-height: 608px;
   margin-top: 31px;
-  margin-left: 40px;
+  padding-right: 10px;
+  padding-left: 10px;
   justify-content: space-between;
 }
 .four-part1{
@@ -489,6 +497,7 @@ h1{
   height: 540px;
   display: flex;
   margin-top: 199px;
+  padding-right: 10px;
   justify-content: space-between;
 }
 .four-about{
@@ -642,11 +651,12 @@ h1{
   background-color: rgba(0,0,0,0.7);
 }
 .conteiner-five{
-  max-width: 1300px;
+  max-width: 1256px;
   margin: 0 auto;
   position: relative;
   z-index: 1;
   display: flex;
+  padding-right: 10px;
 }
 .nav-five{
   width: 411px;
@@ -719,7 +729,7 @@ h1{
 }
 .six-conteiner{
   margin: 0 auto;
-  max-width: 1300px;
+  max-width: 1256px;
 }
 .text-six{
   font-family: Nunito Sans;
@@ -735,6 +745,8 @@ h1{
   height: 483px;
   display: flex;
   justify-content: space-between;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 .conteiner-text{
   width: 376px;
@@ -796,7 +808,7 @@ h1{
   background-color: rgba(0,0,0,0.8);
 }
 .seven-conteiner{
-  max-width: 1300px;
+  max-width: 1256px;
   margin: 0px auto;
   position: relative;
   z-index: 1;
