@@ -379,7 +379,7 @@ header{
 }
 .svg-img{
   text-align: center;
-  width: 100%;
+  max-width: 1256px;
   margin-top: 13px;
 }
 .molotok{
@@ -388,7 +388,7 @@ header{
 }
 .four-conteiner{
   display: flex;
-  max-width: 100%;
+  max-width: 1256px;;
   min-height: 608px;
   margin-top: 31px;
   padding-right: 10px;
@@ -396,19 +396,19 @@ header{
   justify-content: space-between;
 }
 .four-part1{
-  width: 392px;
+  width: 390px;
   height: 608px;
   background-image: url(../images/image\ 11.jpg);
   background-repeat: no-repeat;
 }
 .four-part2{
-  width: 392px;
+  width: 390px;
   height: 608px;
   background-image: url(../images/image\ 12.jpg);
   background-repeat: no-repeat;
 }
 .four-part3{
-  width: 392px;
+  width: 390px;
   height: 608px;
   background-image: url(../images/image\ 13.jpg);
   background-repeat: no-repeat;
@@ -455,8 +455,8 @@ header{
   padding-top: 17px;
 }
 .four-info-conteiner{
-  max-width: 100%;
-  height: 540px;
+  max-width: 1256px;
+  height: 550px;
   display: flex;
   margin-top: 199px;
   padding-right: 10px;
@@ -465,12 +465,12 @@ header{
 .four-about{
   background-image: url(../images/image\ 6.1.png);
   height: 100%;
-  width: 695px;
+  max-width: 695px;
 }
 .about-text{
   display: flex;
-  width: 420px;
-  height: 451px;
+  max-width: 420px;
+  height: auto;
   flex-direction: column;
   margin-top: 37px;
   margin-left: 236px;
@@ -488,7 +488,7 @@ header{
   color: #363636;
 }
 .four-forme-content{
-  width: 512px;
+  max-width: 512px;
   height: 509px;
   border: 1px solid black;
   margin-top: 31px;
@@ -531,7 +531,7 @@ header{
 .two-checkbox{
   margin-left: 49px;
   margin-top: 15px;
-  width: 100%;
+  max-width: 100%;
 }
 .checkbox{
   display: none;
@@ -560,14 +560,14 @@ header{
   margin-left: 8px;
 }
 .button-four{
-  width: 509px;
+  width: 213px;
   height: 116px;
-  margin-left: 246px;
+  margin-left: 210px;
   margin-top: 39px;
 }
 .help{
   display: flex;
-  width: 100%;
+  max-width: 1255px;
   height: 72px;
   align-items: center;
   margin-top: 39px;
@@ -1216,6 +1216,8 @@ footer{
       padding-right: 18px;
       padding-left: 18px;
       flex-direction: column;
+      align-items: center;
+      margin-bottom: 30px;
     }
     .four-part1{
       width: 339px;
@@ -1277,6 +1279,9 @@ footer{
       padding-top: 17px;
     }
       .four-info-conteiner{
+      display: none;
+    }
+    .help{
       display: none;
     }
   
